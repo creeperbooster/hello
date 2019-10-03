@@ -22,7 +22,7 @@ DefaultDirName={autopf}\{#MyAppName}
 DisableProgramGroupPage=yes
 ; Uncomment the following line to run in non administrative install mode (install for current user only.)
 ;PrivilegesRequired=lowest
-OutputDir=D:\SkriptGitPul_Institut_2019\hello
+OutputDir=D:\SkriptGitPul_Institut_2019\hello\hello
 OutputBaseFilename=mysetup
 Compression=lzma
 SolidCompression=yes
@@ -36,7 +36,7 @@ Name: "russian"; MessagesFile: "compiler:Languages\Russian.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "D:\SkriptGitPul_Institut_2019\hello\main.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\SkriptGitPul_Institut_2019\hello\hello\main.exe"; DestDir: "{app}"; Flags: ignoreversion
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
